@@ -15,6 +15,7 @@ return [
     'layout'=>'bootstrap',
     'modules' => [
         'redactor' => 'yii\redactor\RedactorModule',
+
     ],
     'components' => [
 
@@ -61,7 +62,9 @@ return [
 
                 '<action>'=>'site/<action>',
             ],
+
         ],
+
         'assetManager' => [
             'basePath' => '@webroot/assets',
             'baseUrl' => '@web/assets'
@@ -73,4 +76,6 @@ return [
 
     ],
     'params' => $params,
+
+
 ];
