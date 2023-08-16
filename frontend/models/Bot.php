@@ -33,6 +33,8 @@ class Bot extends \yii\db\ActiveRecord
         return [
             [['user_id', 'create_at', 'update_at', 'active'], 'integer'],
             [['name', 'token'], 'string', 'max' => 255],
+            [['name',], 'unique'],
+            [['name',], 'required'],
         ];
     }
 

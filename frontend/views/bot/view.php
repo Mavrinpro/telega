@@ -11,32 +11,43 @@ $this->params['breadcrumbs'][] = ['label' => 'Bots', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 \yii\web\YiiAsset::register($this);
 ?>
-<div class="bot-view">
 
-    <h1><?= Html::encode($this->title) ?></h1>
+<section class="mt-5 pt-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="bot-view">
 
-    <p>
-        <?= Html::a('Update', ['update', 'id' => $model->id], ['class' => 'btn btn-primary']) ?>
-        <?= Html::a('Delete', ['delete', 'id' => $model->id], [
-            'class' => 'btn btn-danger',
-            'data' => [
-                'confirm' => 'Are you sure you want to delete this item?',
-                'method' => 'post',
-            ],
-        ]) ?>
-    </p>
+                    <h1><?= Html::encode($this->title) ?></h1>
 
-    <?= DetailView::widget([
-        'model' => $model,
-        'attributes' => [
-            'id',
-            'name',
-            'user_id',
-            'token',
-            'create_at',
-            'update_at',
-            'active',
-        ],
-    ]) ?>
+                    <p>
+                        <?= Html::a('Update', ['update', 'id' => $model->id], ['class' => 'btn btn-primary']) ?>
+                        <?= Html::a('Delete', ['delete', 'id' => $model->id], [
+                            'class' => 'btn btn-danger',
+                            'data' => [
+                                'confirm' => 'Are you sure you want to delete this item?',
+                                'method' => 'post',
+                            ],
+                        ]) ?>
+                    </p>
 
-</div>
+                    <?= DetailView::widget([
+                        'model' => $model,
+                        'attributes' => [
+                            'id',
+                            'name',
+                            'user_id',
+                            'token',
+                            'create_at',
+                            'update_at',
+                            'active',
+                        ],
+                    ]) ?>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+

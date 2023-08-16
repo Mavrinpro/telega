@@ -58,9 +58,14 @@ return [
             //'suffix' => '.html',
             'rules' => [
                 '' => 'site/index',
+                'about' => 'site/about',
+                'services' => 'site/services',
+                'contact' => 'site/contact',
 
 
-                '<action>'=>'site/<action>',
+                '<controller:(bot|doctors|review|tasks|branch|page|signup|layouts-mail|user|tracking|site|confirm|protocol)>/<action:(index|update|delete|view|create|change-password|userscore)>/<id:\d+>' =>
+                    '<controller>/<action>',
+                //'<controller:\w+>/<bot:\d+>' => '<controller>/index',
             ],
 
         ],
