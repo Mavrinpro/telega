@@ -15,6 +15,7 @@ $this->title = 'Bots';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <section class="mt-5">
+    <div class="container mt-5">
     <div class="row">
         <div class="col-md-12">
 
@@ -33,7 +34,7 @@ $this->params['breadcrumbs'][] = $this->title;
                 'columns' => [
                     ['class' => 'yii\grid\SerialColumn'],
 
-                    'id',
+                    //'id',
                     'name',
                     'user_id',
                     //'token',
@@ -59,6 +60,7 @@ $this->params['breadcrumbs'][] = $this->title;
             <?php Pjax::end(); ?>
 
         </div>
+    </div>
     </div>
 </section>
 
