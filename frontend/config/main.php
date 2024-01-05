@@ -12,7 +12,7 @@ return [
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],
     'controllerNamespace' => 'frontend\controllers',
-    'layout'=>'bootstrap',
+    'layout'=>'hyper',
     'modules' => [
         'redactor' => 'yii\redactor\RedactorModule',
 
@@ -61,9 +61,10 @@ return [
                 'about' => 'site/about',
                 'services' => 'site/services',
                 'contact' => 'site/contact',
+                'dynamics' => 'site/dynamics',
 
 
-                '<controller:(bot|doctors|review|tasks|branch|page|signup|layouts-mail|user|tracking|site|confirm|protocol)>/<action:(index|update|delete|view|create|change-password|userscore)>/<id:\d+>' =>
+                '<controller:(bot|doctors|review|tasks|branch|page|signup|layouts-mail|user|tracking|site|confirm|protocol)>/<action:(index|update|delete|view|create|change-password|userscore|dynamics)>/<id:\d+>' =>
                     '<controller>/<action>',
                 //'<controller:\w+>/<bot:\d+>' => '<controller>/index',
             ],

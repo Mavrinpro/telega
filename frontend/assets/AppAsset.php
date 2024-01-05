@@ -3,6 +3,7 @@
 namespace frontend\assets;
 
 use yii\web\AssetBundle;
+use yii\web\View;
 
 /**
  * Main frontend application asset bundle.
@@ -12,16 +13,30 @@ class AppAsset extends AssetBundle
     public $basePath = '@webroot';
     public $baseUrl = '@web';
     public $css = [
-        'css/site.css',
+        'theme/vendor/daterangepicker/daterangepicker.css',
+        'theme/vendor/admin-resources/jquery.vectormap/jquery-jvectormap-1.2.2.css',
+        ['theme/css/app-saas.min.css', 'id' => 'app-style'],
+        'theme/css/icons.min.css',
+
+        //'css/site.css',
+        //'css/font-awesome/font-awesome.min.css',
+
     ];
+
     public $js = [
-        'https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js',
-        'https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js',
+        'theme/js/vendor.min.js',
+        '/theme/vendor/daterangepicker/moment.min.js',
+        'theme/vendor/daterangepicker/daterangepicker.js',
+        'theme/vendor/apexcharts/apexcharts.min.js',
+        'theme/vendor/admin-resources/jquery.vectormap/jquery-jvectormap-1.2.2.min.js',
+        'theme/vendor/admin-resources/jquery.vectormap/maps/jquery-jvectormap-world-mill-en.js',
+        'theme/js/pages/demo.dashboard.js',
+        'theme/js/app.min.js',
         'js/custom.js',
     ];
     public $depends = [
         'yii\web\YiiAsset',
-        'yii\bootstrap4\BootstrapAsset',
-        'yii\bootstrap4\BootstrapAsset',
+        //'yii\bootstrap4\BootstrapAsset',
+        //'yii\bootstrap4\BootstrapAsset',
     ];
 }

@@ -11,6 +11,9 @@ use Yii;
  * @property string|null $name
  * @property int|null $user_id
  * @property string|null $token
+ * @property string|null $start_message
+ * @property string|null $subscribe_message
+ * @property string|null $left_message
  * @property int|null $create_at
  * @property int|null $update_at
  * @property int|null $active
@@ -35,6 +38,7 @@ class Bot extends \yii\db\ActiveRecord
             [['name', 'token'], 'string', 'max' => 255],
             [['name',], 'unique'],
             [['name',], 'required'],
+            [['start_message', 'subscribe_message', 'left_message'], 'safe'],
         ];
     }
 

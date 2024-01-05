@@ -13,6 +13,7 @@ use yii\filters\VerbFilter;
  */
 class BotController extends Controller
 {
+    public $layout = 'hyper';
     /**
      * @inheritDoc
      */

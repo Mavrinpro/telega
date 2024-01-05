@@ -22,7 +22,7 @@ use frontend\models\ContactForm;
  */
 class SiteController extends Controller
 {
-    public $layout = 'bootstrap';
+    public $layout = 'hyper';
     /**
      * {@inheritdoc}
      */
@@ -77,6 +77,7 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
+        $this->layout = 'landing';
 $model = new IndexForm();
         $this->view->registerMetaTag(
             ['name' => 'description', 'content' => 'Уничтожение документов проводиться опытными архивистами мы приступаем к работе на следующий день после заключения договора. Процесс утилизации 1 тонны бумаг занимает 10 минут']
@@ -275,5 +276,10 @@ $model = new IndexForm();
     public function actionPolitics()
     {
         return $this->render('politics');
+    }
+
+    public function actionDynamics()
+    {
+        return $this->render('dynamics');
     }
 }
