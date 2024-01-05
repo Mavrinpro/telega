@@ -85,9 +85,9 @@ AppAsset::register($this);
         <div class="row align-items-center">
             <div class="col-md-5">
                 <div class="mt-md-4">
-                    <h2 class="text-white fw-normal mb-4 mt-3 hero-title">
+                    <h1 class="text-white fw-normal mb-4 mt-3 hero-title">
                         Сервис продвижение телеграм-каналов
-                    </h2>
+                    </h1>
 
                     <p class="mb-4 font-16 text-white-50">Попробуйте БЕСПЛАТНО уже сейчас привлечь живых подписчиков в свой телеграм-канал или группу</p>
 
@@ -112,11 +112,11 @@ AppAsset::register($this);
             <div class="col-lg-12">
                 <div class="text-center">
                     <h1 class="mt-0"><i class="mdi mdi-infinity"></i></h1>
-                    <h3>The admin is fully <span class="text-primary">responsive</span> and easy to <span
-                            class="text-primary">customize</span></h3>
-                    <p class="text-muted mt-2">The clean and well commented code allows easy customization of the
-                        theme.It's designed for
-                        <br>describing your app, agency or business.</p>
+                    <h3>Делитесь полезной <span class="text-primary">информацией</span> с аудиторией и привлекайте <span
+                            class="text-primary">подписчиков</span></h3>
+                    <p class="text-muted mt-2">в свой телеграм-канал или группу
+
+                        <br>при помощи специального бота.</p>
                 </div>
             </div>
         </div>
@@ -126,12 +126,11 @@ AppAsset::register($this);
                 <div class="text-center p-2 p-sm-3">
                     <div class="avatar-sm m-auto">
                                 <span class="avatar-title bg-primary-lighten rounded-circle">
-                                    <i class="uil uil-desktop text-primary font-24"></i>
+                                    <i class="uil uil-play text-primary font-24"></i>
                                 </span>
                     </div>
-                    <h4 class="mt-3">Responsive Layouts</h4>
-                    <p class="text-muted mt-2 mb-0">Et harum quidem rerum as expedita distinctio nam libero tempore
-                        cum soluta nobis est cumque quo.
+                    <h4 class="mt-3">Быстрый старт</h4>
+                    <p class="text-muted mt-2 mb-0">Сразу после регистрации вам доступны все возможности сервиса без ограничений
                     </p>
                 </div>
             </div>
@@ -140,12 +139,11 @@ AppAsset::register($this);
                 <div class="text-center p-2 p-sm-3">
                     <div class="avatar-sm m-auto">
                                 <span class="avatar-title bg-primary-lighten rounded-circle">
-                                    <i class="uil uil-vector-square text-primary font-24"></i>
+                                    <i class="uil uil-bright text-primary font-24"></i>
                                 </span>
                     </div>
-                    <h4 class="mt-3">Based on Bootstrap UI</h4>
-                    <p class="text-muted mt-2 mb-0">Temporibus autem quibusdam et aut officiis necessitatibus saepe
-                        eveniet ut sit et recusandae.
+                    <h4 class="mt-3">Легкая настройка</h4>
+                    <p class="text-muted mt-2 mb-0">Нужно всего лишь указать ссылку на канал и создать сообщения, которые будут получать подписчики
                     </p>
                 </div>
             </div>
@@ -154,12 +152,11 @@ AppAsset::register($this);
                 <div class="text-center p-2 p-sm-3">
                     <div class="avatar-sm m-auto">
                                 <span class="avatar-title bg-primary-lighten rounded-circle">
-                                    <i class="uil uil-presentation text-primary font-24"></i>
+                                    <i class="uil uil-money-insert text-primary font-24"></i>
                                 </span>
                     </div>
-                    <h4 class="mt-3">Creative Design</h4>
-                    <p class="text-muted mt-2 mb-0">Nam libero tempore, cum soluta a est eligendi minus id quod
-                        maxime placeate facere assumenda est.
+                    <h4 class="mt-3">Бесплатно</h4>
+                    <p class="text-muted mt-2 mb-0">В течении семи дней вы можете привлекать подписчиков совершенно бесплатно
                     </p>
                 </div>
             </div>
@@ -168,12 +165,11 @@ AppAsset::register($this);
                 <div class="text-center p-2 p-sm-3">
                     <div class="avatar-sm m-auto">
                                 <span class="avatar-title bg-primary-lighten rounded-circle">
-                                    <i class="uil uil-apps text-primary font-24"></i>
+                                    <i class="uil uil-traffic-barrier text-primary font-24"></i>
                                 </span>
                     </div>
-                    <h4 class="mt-3">Multiple Applications</h4>
-                    <p class="text-muted mt-2 mb-0">Et harum quidem rerum as expedita distinctio nam libero tempore
-                        cum soluta nobis est cumque quo.
+                    <h4 class="mt-3">Без ограничений</h4>
+                    <p class="text-muted mt-2 mb-0">Можно создавать неограниченное количество ботов для разных телеграм-каналов и групп
                     </p>
                 </div>
             </div>
@@ -182,12 +178,11 @@ AppAsset::register($this);
                 <div class="text-center p-2 p-sm-3">
                     <div class="avatar-sm m-auto">
                                 <span class="avatar-title bg-primary-lighten rounded-circle">
-                                    <i class="uil uil-shopping-cart-alt text-primary font-24"></i>
+                                    <i class="uil uil-shield-check text-primary font-24"></i>
                                 </span>
                     </div>
-                    <h4 class="mt-3">Ecommerce Pages</h4>
-                    <p class="text-muted mt-2 mb-0">Temporibus autem quibusdam et aut officiis necessitatibus saepe
-                        eveniet ut sit et recusandae.
+                    <h4 class="mt-3">Безопасно</h4>
+                    <p class="text-muted mt-2 mb-0">Данные каналов никуда не передаются. Хранится толькот название канала или группы для идентификации
                     </p>
                 </div>
             </div>
@@ -196,12 +191,11 @@ AppAsset::register($this);
                 <div class="text-center p-2 p-sm-3">
                     <div class="avatar-sm m-auto">
                                 <span class="avatar-title bg-primary-lighten rounded-circle">
-                                    <i class="uil uil-grids text-primary font-24"></i>
+                                    <i class="uil uil-chart-line text-primary font-24"></i>
                                 </span>
                     </div>
-                    <h4 class="mt-3">Multiple Layouts</h4>
-                    <p class="text-muted mt-2 mb-0">Nam libero tempore, cum soluta a est eligendi minus id quod
-                        maxime placeate facere assumenda est.
+                    <h4 class="mt-3">Статистика</h4>
+                    <p class="text-muted mt-2 mb-0">Всегда можно посмотреть статистику по каналам и оценить динамику прироста подписчиков
                     </p>
                 </div>
             </div>
@@ -217,10 +211,8 @@ AppAsset::register($this);
         <div class="row">
             <div class="col-lg-12">
                 <div class="text-center">
-                    <h3>Flexible <span class="text-primary">Layouts</span></h3>
-                    <p class="text-muted mt-2">There are three different layout options available to cater need for
-                        any <br /> modern web
-                        application.</p>
+                    <h3>Как выглядит наш <span class="text-primary">Телеграм-бот</span></h3>
+                    <p class="text-muted mt-2">Персонифицированные сообщения вашим потенциальным подписчикам <br /> повышают доверие к вам и вашему бренду</p>
                 </div>
             </div>
         </div>
@@ -228,7 +220,7 @@ AppAsset::register($this);
         <div class="row mt-1">
             <div class="col-lg-4 col-md-6">
                 <div class="demo-box text-center mt-3">
-                    <img src="assets/images/layouts/layout-1.png" alt="demo-img"
+                    <img src="/theme/images/layouts/layout-1.png" alt="demo-img"
                          class="img-fluid shadow-sm rounded">
                     <h5 class="mt-3 f-17">Vertical Layout</h5>
                 </div>
@@ -236,7 +228,7 @@ AppAsset::register($this);
 
             <div class="col-lg-4 col-md-6">
                 <div class="demo-box text-center mt-3">
-                    <img src="assets/images/layouts/layout-2.png" alt="demo-img"
+                    <img src="/theme/images/layouts/layout-2.png" alt="demo-img"
                          class="img-fluid shadow-sm rounded">
                     <h5 class="mt-3 f-17">Horizontal Layout</h5>
                 </div>
@@ -244,33 +236,9 @@ AppAsset::register($this);
 
             <div class="col-lg-4 col-md-6">
                 <div class="demo-box text-center mt-3">
-                    <img src="assets/images/layouts/layout-3.png" alt="demo-img"
+                    <img src="/theme/images/layouts/layout-3.png" alt="demo-img"
                          class="img-fluid shadow-sm rounded">
                     <h5 class="mt-3 f-17">Detached Layout</h5>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6">
-                <div class="demo-box text-center mt-3">
-                    <img src="assets/images/layouts/layout-5.png" alt="demo-img"
-                         class="img-fluid shadow-sm rounded">
-                    <h5 class="mt-3 f-17">Light Sidenav Layout</h5>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6">
-                <div class="demo-box text-center mt-3">
-                    <img src="assets/images/layouts/layout-6.png" alt="demo-img"
-                         class="img-fluid shadow-sm rounded">
-                    <h5 class="mt-3 f-17">Boxed Layout</h5>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6">
-                <div class="demo-box text-center mt-3">
-                    <img src="assets/images/layouts/layout-4.png" alt="demo-img"
-                         class="img-fluid shadow-sm rounded">
-                    <h5 class="mt-3 f-17">Semi Dark Layout</h5>
                 </div>
             </div>
         </div>
@@ -293,7 +261,7 @@ AppAsset::register($this);
         </div>
         <div class="row mt-2 py-5 align-items-center">
             <div class="col-lg-5 col-md-6">
-                <img src="assets/images/svg/features-1.svg" class="img-fluid" alt="">
+                <img src="/theme/images/svg/features-1.svg" class="img-fluid" alt="">
             </div>
             <div class="col-lg-6 offset-md-1 col-md-5">
                 <h3 class="fw-normal">Inbuilt applications and pages</h3>
@@ -327,7 +295,7 @@ AppAsset::register($this);
 
             </div>
             <div class="col-lg-5 col-md-6 offset-md-1">
-                <img src="assets/images/svg/features-2.svg" class="img-fluid" alt="">
+                <img src="/theme/images/svg/features-2.svg" class="img-fluid" alt="">
             </div>
         </div>
 
@@ -354,9 +322,9 @@ AppAsset::register($this);
             <div class="col-md-4">
                 <div class="card card-pricing">
                     <div class="card-body text-center">
-                        <p class="card-pricing-plan-name fw-bold text-uppercase">Standard License </p>
+                        <p class="card-pricing-plan-name fw-bold text-uppercase">Один канал </p>
                         <i class="card-pricing-icon ri-user-line text-primary"></i>
-                        <h2 class="card-pricing-price">$49 <span>/ License</span></h2>
+                        <h2 class="card-pricing-price">0₽ <span>/ 30 дней</span></h2>
                         <ul class="card-pricing-features">
                             <li>10 GB Storage</li>
                             <li>500 GB Bandwidth</li>
@@ -376,9 +344,9 @@ AppAsset::register($this);
                 <div class="card card-pricing card-pricing-recommended">
                     <div class="card-body text-center">
                         <div class="card-pricing-plan-tag">Recommended</div>
-                        <p class="card-pricing-plan-name fw-bold text-uppercase">Multiple License</p>
+                        <p class="card-pricing-plan-name fw-bold text-uppercase">2 канала</p>
                         <i class="card-pricing-icon ri-briefcase-line text-primary"></i>
-                        <h2 class="card-pricing-price">$99 <span>/ License</span></h2>
+                        <h2 class="card-pricing-price">1000₽ <span>/ 30 дней</span></h2>
                         <ul class="card-pricing-features">
                             <li>50 GB Storage</li>
                             <li>900 GB Bandwidth</li>
@@ -397,9 +365,9 @@ AppAsset::register($this);
             <div class="col-md-4">
                 <div class="card card-pricing">
                     <div class="card-body text-center">
-                        <p class="card-pricing-plan-name fw-bold text-uppercase">Extended License</p>
+                        <p class="card-pricing-plan-name fw-bold text-uppercase">Безлимит</p>
                         <i class="card-pricing-icon ri-store-2-line text-primary"></i>
-                        <h2 class="card-pricing-price">$599 <span>/ License</span></h2>
+                        <h2 class="card-pricing-price">1600₽ <span>/ 30 дней</span></h2>
                         <ul class="card-pricing-features">
                             <li>100 GB Storege</li>
                             <li>Unlimited Bandwidth</li>
@@ -560,7 +528,7 @@ AppAsset::register($this);
     <div class="container">
         <div class="row">
             <div class="col-lg-6">
-                <img src="assets/images/logo.png" alt="logo" class="logo-dark" height="22" />
+                <img src="/theme/images/logo.png" alt="logo" class="logo-dark" height="22" />
                 <p class="text-muted mt-4">Hyper makes it easier to build better websites with
                     <br> great speed. Save hundreds of hours of design
                     <br> and development by using it.</p>
@@ -629,10 +597,10 @@ AppAsset::register($this);
 </footer>
 <!-- END FOOTER -->
 <!-- Vendor js -->
-<script src="assets/js/vendor.min.js"></script>
+<script src="/theme/js/vendor.min.js"></script>
 
 <!-- App js -->
-<script src="assets/js/app.min.js"></script>
+<script src="/theme/js/app.min.js"></script>
 <?php $this->endBody() ?>
 </body>
 </html>
