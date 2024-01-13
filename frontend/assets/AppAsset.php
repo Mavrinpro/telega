@@ -35,6 +35,8 @@ class AppAsset extends AssetBundle
         'https://apexcharts.com/samples/assets/stock-prices.js',
         'https://apexcharts.com/samples/assets/irregular-data-series.js',
         'theme/js/pages/demo.apex-line.js',
+        '//chat/supportboard/js/min/jquery.min.js',
+        '//chat/supportboard/js/main.js',
         'js/custom.js',
     ];
     public $depends = [
