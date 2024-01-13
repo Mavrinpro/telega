@@ -4,6 +4,7 @@ namespace frontend\controllers;
 
 use app\models\Bot;
 use app\models\BotLeads;
+use app\models\TelegramUser;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
@@ -131,5 +132,22 @@ class BotController extends Controller
         }
 
         throw new NotFoundHttpException('The requested page does not exist.');
+    }
+
+    // Аналитика
+    public function actionAnalitics()
+    {
+
+        $posts = \Yii::$app->db->createCommand("SELECT month(from_unixtime(`create_at`)) as month, SUM(`active`) as total FROM `telegram_user` WHERE `active` = 1 GROUP BY month")->queryAll();
+        $days30 = date('Y-m-d H:i:s', strtotime('-30 DAYS'));
+        $d = TelegramUser::find()
+            ->select('DATE(create_at) as date, COUNT(id) as count')
+            ->where(['active' => 1])
+            //->andWhere(['id_operator' => $user_id])
+            ->andWhere('DATE(create_at) >= "'.$days30.'"')
+            ->groupBy('DATE(create_at)')
+            ->asArray()->all();
+        $row =  TelegramUser::find()->where(['active' => 1])->asArray()->all();
+        return $this->render('analitics', ['row' => $posts]);
     }
 }

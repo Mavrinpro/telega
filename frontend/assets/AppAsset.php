@@ -32,6 +32,9 @@ class AppAsset extends AssetBundle
         'theme/vendor/admin-resources/jquery.vectormap/maps/jquery-jvectormap-world-mill-en.js',
         'theme/js/pages/demo.dashboard.js',
         'theme/js/app.min.js',
+        'https://apexcharts.com/samples/assets/stock-prices.js',
+        'https://apexcharts.com/samples/assets/irregular-data-series.js',
+        'theme/js/pages/demo.apex-line.js',
         'js/custom.js',
     ];
     public $depends = [
