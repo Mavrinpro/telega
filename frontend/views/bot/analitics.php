@@ -28,6 +28,8 @@ foreach ( $row as $item) {
 }
 $ye = implode(',', $YEAR);
 $re = implode(',', $TOTAL);
+$content = "<p>This is a sample text where {username}</p>";
+echo preg_replace('/{(.*?)}/', 'Alexey', $content);
 
 ?>
 
