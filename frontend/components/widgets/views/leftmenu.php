@@ -25,7 +25,6 @@
             </ul>
         </div>
     </li>
-
     <li class="side-nav-title">Apps</li>
 
     <li class="side-nav-item">
