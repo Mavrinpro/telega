@@ -120,7 +120,6 @@
             </ul>
         </div>
     </li>
-
     <li class="side-nav-item">
         <a data-bs-toggle="collapse" href="#sidebarProjects" aria-expanded="false"
            aria-controls="sidebarProjects" class="side-nav-link">
