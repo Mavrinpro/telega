@@ -77,6 +77,8 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
+        //$client = new \Google_Client();
+        //var_dump($client);
         $this->layout = 'landing';
 $model = new IndexForm();
         $this->view->registerMetaTag(

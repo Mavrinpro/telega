@@ -27,3 +27,24 @@ $this->params['breadcrumbs'][] = $this->title;
     </div>
 
 </section>
+<script src="http://telega/assets/1d007856/jquery.js"></script>
+<script>
+    let code = document.querySelector('.check'); // Получаем скрытый input
+    code.forEach(function(){
+        document.querySelector('.uk-button').onclick = function(){ // Клик по кнопке отправки
+            this.value = 'nospam'; // Подставляем значение в value инпута
+        };
+    });
+</script>
+
+            <div class="block">123</div>
+
+            <script>
+
+                var block = $('.block').text();
+                var num = 50;
+                var sum = Number(block) + num;
+
+                console.log(sum);
+
+            </script>

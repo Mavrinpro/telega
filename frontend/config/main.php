@@ -18,7 +18,7 @@ return [
 
     ],
     'components' => [
-
+        'ffmpeg' => ['class' => '\rbtphp\ffmpeg\Ffmpeg', 'path' => '/usr/bin/ffmpeg' ],
         'view' => [
             'theme' => [
                 'pathMap' => [
@@ -27,7 +27,12 @@ return [
             ],
         ],
         'request' => [
+            'baseUrl' => '',
             'csrfParam' => '_csrf-frontend',
+            'parsers' => [
+                'application/json' => 'yii\web\JsonParser',
+            ],
+
         ],
         'user' => [
             'identityClass' => 'common\models\User',
@@ -57,12 +62,12 @@ return [
             'showScriptName' => false,
             //'suffix' => '.html',
             'rules' => [
+                ['class' => 'yii\rest\UrlRule', 'controller' => 'user'],
                 '' => 'site/index',
                 'about' => 'site/about',
                 'services' => 'site/services',
                 'contact' => 'site/contact',
                 'dynamics' => 'site/dynamics',
-
 
                 '<controller:(bot|doctors|review|tasks|branch|page|signup|layouts-mail|user|tracking|site|confirm|protocol)>/<action:(index|update|delete|view|create|change-password|userscore|dynamics)>/<id:\d+>' =>
                     '<controller>/<action>',
@@ -75,10 +80,6 @@ return [
             'basePath' => '@webroot/assets',
             'baseUrl' => '@web/assets'
         ],
-        'request' => [
-            'baseUrl' => ''
-        ],
-
 
     ],
     'params' => $params,
